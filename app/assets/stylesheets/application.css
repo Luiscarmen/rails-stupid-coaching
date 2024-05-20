@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+ .container {
+  text-align: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  padding: 20px;/*  */
+}
+.dialog-box {
+  border: 1px solid #000;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.coach-response {
+  background-color: rgb(0, 255, 128);
+  padding: 10px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+}
